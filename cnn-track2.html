@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CNN Project</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <h1>CNN Object Recognition</h1>
+    <p>Summary and evaluation of the CIFAR-10 convolutional neural network task</p>
+  </div>
+</header>
+<div class="topnav"><div class="wrap inner"><div class="brand">ML E-Portfolio</div><nav><a href="index.html">Home</a><a href="about.html">About</a><a href="reflection.html">Reflection</a><a href="evaluation.html">Evaluation</a><a href="cnn-track2.html">CNN Project</a><a href="references.html">References</a><a href="unit6-proposal.html">Unit 6 Proposal</a><a href="unit11-final.html">Unit 11 Final</a><a href="unit1.html">Unit 1</a><a href="unit2.html">Unit 2</a><a href="unit3.html">Unit 3</a><a href="unit4.html">Unit 4</a><a href="unit5.html">Unit 5</a><a href="unit6.html">Unit 6</a><a href="unit7.html">Unit 7</a><a href="unit8.html">Unit 8</a><a href="unit9.html">Unit 9</a><a href="unit10.html">Unit 10</a><a href="unit11.html">Unit 11</a><a href="unit12.html">Unit 12</a></nav></div></div>
+<main><div class="wrap">
+
+<section class="card">
+  <h2 class="section-title">CNN Object Recognition Project</h2>
+  <p>This page summarises the convolutional neural network work completed for the image classification task. The project used the CIFAR-10 dataset and combined a CNN approach with transfer learning. The presentation reported training accuracy of around 80 per cent, validation accuracy of around 74 per cent and test accuracy of around 75 per cent. It also emphasised the role of validation, early stopping and learning-rate scheduling in controlling overfitting. fileciteturn1file1</p>
+</section>
+
+<div class="grid cols-2" style="margin-top:20px">
+  <section class="card">
+    <h2>Dataset and pipeline</h2>
+    <ul class="tight">
+      <li>60,000 images across 10 classes</li>
+      <li>Image size of 32 by 32 pixels</li>
+      <li>Normalisation and augmentation used in preprocessing</li>
+      <li>Validation used to guide tuning and reduce overfitting</li>
+    </ul>
+  </section>
+  <section class="card">
+    <h2>Approach</h2>
+    <ul class="tight">
+      <li>Convolutional neural network for feature extraction</li>
+      <li>Transfer learning using MobileNetV2</li>
+      <li>Adam optimiser with early stopping and learning-rate scheduling</li>
+      <li>Evaluation through accuracy, loss and confusion matrix review</li>
+    </ul>
+  </section>
+</div>
+
+<section class="card" style="margin-top:20px">
+  <h2>Critical evaluation</h2>
+  <p>The CNN model showed that deep learning can outperform more traditional approaches when the task requires feature learning from images. However, the results also showed the limitations of the approach. Small image size and class similarity created ambiguity for several classes, and the confusion matrix made it clear that performance was not equally strong across the dataset. This matters because overall accuracy can hide class-level weakness. The project therefore reinforced the importance of looking beyond headline metrics when evaluating model quality.</p>
+  <p>My own contribution centred on interpreting the results, identifying the strengths and limitations of the approach, and presenting the model outputs in a way that connected technical findings to practical implications. The task strengthened my understanding of how validation and tuning support generalisation, and how transfer learning can improve efficiency when training resources are limited.</p>
+</section>
+
+<div class="grid cols-3" style="margin-top:20px">
+  <div class="figure"><img src="cnn_accuracy.png" alt="CNN accuracy curve"><p class="figcap">Accuracy curve showing the gap between training and validation performance.</p></div>
+  <div class="figure"><img src="cnn_loss.png" alt="CNN loss curve"><p class="figcap">Loss curve showing learning behaviour over training epochs.</p></div>
+  <div class="figure"><img src="cnn_confusion_matrix.png" alt="CNN confusion matrix"><p class="figcap">Confusion matrix used to identify stronger and weaker classes.</p></div>
+</div>
+
+</div></main>
+<footer><div class="wrap">Machine Learning e-portfolio prepared as a static HTML site for GitHub Pages.</div></footer>
+</body></html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reflection</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <h1>Final Reflection</h1>
+    <p>A critical review of technical learning, teamwork and professional development</p>
+  </div>
+</header>
+<div class="topnav"><div class="wrap inner"><div class="brand">ML E-Portfolio</div><nav><a href="index.html">Home</a><a href="about.html">About</a><a href="reflection.html">Reflection</a><a href="evaluation.html">Evaluation</a><a href="cnn-track2.html">CNN Project</a><a href="references.html">References</a><a href="unit6-proposal.html">Unit 6 Proposal</a><a href="unit11-final.html">Unit 11 Final</a><a href="unit1.html">Unit 1</a><a href="unit2.html">Unit 2</a><a href="unit3.html">Unit 3</a><a href="unit4.html">Unit 4</a><a href="unit5.html">Unit 5</a><a href="unit6.html">Unit 6</a><a href="unit7.html">Unit 7</a><a href="unit8.html">Unit 8</a><a href="unit9.html">Unit 9</a><a href="unit10.html">Unit 10</a><a href="unit11.html">Unit 11</a><a href="unit12.html">Unit 12</a></nav></div></div>
+<main><div class="wrap">
+
+<section class="card">
+  <h2 class="section-title">Final Reflection</h2>
+  <p class="small">This reflection uses the What, So What and Now What structure associated with Rolfe et al. (2001).</p>
+
+  <h3>What</h3>
+  <p>This module provided a broad introduction to machine learning techniques and their practical application. At the start of the term, my understanding of machine learning was largely conceptual. I was familiar with the language of regression, clustering and neural networks, but I had less confidence in how these methods should be selected, evaluated and interpreted in a structured analytical workflow. The module moved from introductory concepts through exploratory data analysis, regression, clustering, neural networks, convolutional neural networks, model evaluation and the wider context of Industry 4.0. Alongside the weekly activities, the most significant learning experiences came from the two main project stages: the Unit 6 proposal and the Unit 11 final project, supported by the separate CNN object recognition task.</p>
+
+  <p>During the Airbnb project, the team sought to understand how pricing across New York City could be explained and segmented using classical machine learning. The final analysis used the AB_NYC_2019 dataset and combined exploratory data analysis, multivariate linear regression and clustering. The report concluded that borough and room type were the strongest drivers of price, that the regression model explained about 53 per cent of the variation on the log scale, and that K-Means identified four practical market segments. The separate CNN work used the CIFAR-10 dataset and combined convolutional neural networks with transfer learning, producing training accuracy of around 80 per cent, validation accuracy of around 74 per cent and test accuracy of around 75 per cent. These practical tasks gave me the strongest opportunities to connect theory with implementation. fileciteturn1file0 fileciteturn1file1</p>
+
+  <h3>So What</h3>
+  <p>The most important shift in my understanding was moving away from seeing machine learning as mainly a technical exercise and toward seeing it as a process of making justified decisions under uncertainty. Early in the module I was tempted to judge models primarily by performance metrics. As the work developed, I realised that a model can produce acceptable results while still being limited by weak assumptions, poor feature design or lack of practical interpretability. This became very clear in the Airbnb project. The regression model achieved moderate predictive performance, but the residual variance showed that there were important drivers of price that had not been captured in the available features. This forced me to think more critically about what the model could and could not claim. The clustering stage extended this thinking further. It did not simply produce another result; it changed the business interpretation of the dataset by showing different types of listings and host behaviour. That made the project more useful, because it moved from prediction alone toward segmentation and decision support. fileciteturn1file2</p>
+
+  <p>The CNN work highlighted a different lesson. It showed that stronger predictive methods do not remove the need for judgement. Even though the model performed reasonably well, the confusion matrix made it obvious that some classes were easier to classify than others. This reminded me that accuracy can hide uneven performance. In a real setting, that matters, because misclassification costs are not always evenly distributed. I also became more aware of the trade-off between performance and transparency. Classical models such as regression gave clearer explanations, while deep learning models offered stronger representation learning but less interpretability. This tension is important in professional practice, especially in sectors where automated decisions may need to be justified to non-technical stakeholders.</p>
+
+  <p>Another major area of learning was teamwork. My own contribution was strongest when the task involved shaping the modelling approach, interpreting results and turning outputs into business-facing conclusions. However, the project also exposed the fact that good technical work is not enough on its own. Team progress depended on aligning expectations, clarifying assumptions and dividing tasks clearly. At points, different members approached the project with different priorities, and that created the need for more explicit coordination than I had initially expected. This was valuable because it made collaboration visible as a skill in its own right rather than something that simply sits around technical work. It also influenced how I think about my own behaviour. I noticed that when I became focused on getting the analysis right, I could become too task-oriented and assume shared understanding that had not actually been established. That is something I need to manage more deliberately in future collaborative work.</p>
+
+  <p>The ethical and professional discussions in the module also mattered more than I expected. The activities on AI writers and computer vision pushed me to think beyond whether a model works and toward what responsible use should look like. Bias, misuse, over-reliance on automated systems and the problem of accountability became recurring themes. This widened my understanding of machine learning professionals' responsibilities. Technical competence is necessary, but it is not sufficient. The practitioner also has to recognise the limits of datasets, the social consequences of deployment and the risks of presenting model outputs as more objective than they really are.</p>
+
+  <h3>Now What</h3>
+  <p>The main implication for my future practice is that I will approach machine learning work more critically and more systematically. I now place greater importance on feature quality, model assumptions, interpretability and evaluation context, rather than treating model performance as the only marker of success. I would also be more deliberate in matching techniques to the business question. For example, the Airbnb work showed that combining regression and clustering gave a richer answer than either approach alone, while the CNN task showed that high-capacity models should still be interpreted carefully and improved iteratively.</p>
+
+  <p>In terms of teamwork, I will pay more attention to explicit communication of roles, assumptions and deliverables at an earlier stage. This is one of the clearest areas where my practice changed during the module. I now see collaborative discipline as part of technical quality, not something separate from it. Professionally, the module has strengthened my confidence in reading machine learning outputs critically and explaining them in a way that links methods to decisions. That is probably the most important development from the module: I no longer see machine learning as a sequence of tools to apply, but as a process of evidence-based reasoning that has technical, organisational and ethical dimensions.</p>
+</section>
+
+</div></main>
+<footer><div class="wrap">Machine Learning e-portfolio prepared as a static HTML site for GitHub Pages.</div></footer>
+</body></html>
